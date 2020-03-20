@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)next:(UIButton *)sender;
+- (IBAction)previous:(UIButton *)sender;
 
 @end
 
